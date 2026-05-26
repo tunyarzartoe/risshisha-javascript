@@ -129,3 +129,58 @@ if (number == string) {
 } else {
     console.log("Number and string are not equal with == operator.");
 }
+
+//&& 論理AND
+console.log(true && true); // true
+console.log(true && false); // false
+console.log(false && true); // false
+console.log(false && false); // false
+
+//|| 論理OR
+console.log(true || true); // true
+console.log(true || false); // true
+console.log(false || true); // true
+console.log(false || false); // false
+
+//! && 論理ANDの例
+let age1 = 25;
+let hasLicense = true;
+
+if (age1 >= 18 && hasLicense) {
+    console.log("You can drive.");
+} else {
+    console.log("You cannot drive.");
+}
+
+//! 論理NOT
+// console.log(!true); // false
+// console.log(!false); // true            
+
+// let number1 = 6 ;
+// if (number1 % 2 === 0) {
+//     if (number1 % 3 === 0) {
+//         console.log(`${number1}は、２の倍数であり、３の倍数でもあります。`);
+//     } else {
+//         console.log(`${number1}は、２の倍数ですが、３の倍数ではありません。`);
+//     }
+// } else {
+//     console.log(`${number1}は、２の倍数ではありません。`);
+// }
+
+let num1 = 1;
+switch (num1) {
+    case 1:
+        console.log("金賞");
+        break;
+    case 2:
+        console.log("銀賞");
+        break;
+    case 3:
+        console.log("銅賞");
+        break;
+    case 3:
+        console.log("銅賞");
+        break;
+    default:
+        console.log("入賞なし");
+}   
