@@ -67,3 +67,13 @@ let p = 10;
 console.log(o && p); // oもpも真であるか？
 console.log(o || p); // oまたはpのどちらかが真であるか？
 console.log(!o); // oは偽であるか？ 
+
+//if文の例
+let temperature = 29;
+if (temperature > 28) {
+    console.log("It's hot outside!");
+} else if (temperature < 15) {
+    console.log("It's cold outside!");
+} else {
+    console.log("The weather is nice!");
+}
