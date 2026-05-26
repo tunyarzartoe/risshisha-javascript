@@ -184,3 +184,7 @@ switch (num1) {
     default:
         console.log("入賞なし");
 }   
+
+let age2 = 20;
+let beverage = (age2 >= 20) ? "アルコール" : "ジュース";
+console.log(beverage);
