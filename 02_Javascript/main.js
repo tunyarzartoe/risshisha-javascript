@@ -77,3 +77,55 @@ if (temperature > 28) {
 } else {
     console.log("The weather is nice!");
 }
+
+let g = 10;
+if (g > 0) {
+    console.log("g is positive");
+} else if (g < 0) {
+    console.log("g is negative");
+} else {
+    console.log("g is zero");
+}
+
+let score = 55;
+
+if (score >= 90) {
+    console.log("Grade: A");
+} else if (score >= 80) {
+    console.log("Grade: B");
+} else if (score >= 70) {
+    console.log("Grade: C");
+} else if (score >= 60) {
+    console.log("Grade: D");
+} else {
+    console.log("Grade: F");
+}
+
+let birthYear = 1990;
+let age = 25;
+let currentYear = new Date().getFullYear();
+let nowAge = currentYear - birthYear;
+
+if (age < 18) {
+    console.log("You are a minor.");
+} else if (age < 65) {
+    console.log("You are an adult.");
+} else {
+    console.log("You are a senior.");
+}
+
+console.log(Number(birthYear) + Number(age)); // 文字列を数値に変換
+
+let number = 100;
+let string = "100";
+if (number === Number(string)) {
+    console.log("Number and string are equal with === operator.");
+} else {
+    console.log("Number and string are not equal with === operator.");
+}
+
+if (number == string) {
+    console.log("Number and string are equal with == operator.");
+} else {
+    console.log("Number and string are not equal with == operator.");
+}
