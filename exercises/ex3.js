@@ -10,7 +10,11 @@
 // 4→吉
 // 5→凶
 // それ以外→ 想定外の数値です。
-let num = 3;
+// let num = 6;
+let num = Math.floor(Math.random() * 5 + 1);
+//  Math.random() * (max - min + 1) + min;
+console.log(num);
+
 switch (num) {
     case 1:
         console.log("大吉");
