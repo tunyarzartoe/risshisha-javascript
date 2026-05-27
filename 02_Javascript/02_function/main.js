@@ -1,21 +1,7 @@
 'use strict';
+// 例題:四角形の面積を求める関数
+function getRectangle(height, width) { //引数
+  return height * width; // 戻り値
+}
 
-// function getRectangle(height, width) { 
-//   return height * width; 
-// }
-
-// console.log(getRectangle(3, 5));
-
-// const getRectangle = function(height, width) {
-//     return height * width;
-// };
-
-// console.log(getRectangle(3, 5));
-
-// const getRectangle = (height, width) => {
-//     return height * width;
-// };
-// console.log(getRectangle(3, 5));
-
-// const getRectangle = (height, width) => height * width;
-// console.log(getRectangle(3, 5));
+console.log(getRectangle(3, 5));
