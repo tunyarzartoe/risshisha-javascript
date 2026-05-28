@@ -3,15 +3,23 @@
 // 生まれた年から年齢を計算する
 // メソッドを追加
 
-let user = {
-  name: 'Taro Yamada',
-  gender: 'man',
-  birthYear: 1990,
-  calcAge: function(thisYear) {
-    // console.log(birthYear); // NG
-    // console.log(this);
-    // console.log(this.birthYear);
-    return thisYear - this.birthYear;
-  }
+// let user = {
+//   name: 'Taro Yamada',
+//   gender: 'man',
+//   birthYear: 2001,
+//   calcAge: function(thisYear) {
+//     // console.log(birthYear); // NG
+//     // console.log(this);
+//     // console.log(this.birthYear);
+//     return thisYear - this.birthYear;
+//   }
+// }
+// console.log(user.calcAge(2026)); // 25
+
+const testFunc4 = () => {
+console.log('hello'); // hello, hello, hello
 }
-console.log(user.calcAge(2021));
+const timeoutId = setInterval(testFunc4, 3000);
+setTimeout(() => {
+clearInterval(timeoutId);
+}, 10000);
